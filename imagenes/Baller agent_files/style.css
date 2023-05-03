@@ -100,7 +100,7 @@ font-size: 25px
 }
 
 
-.caja3{
+.listanav{
     gap: 40px;
     width: 1050px;
     height: 100px;
@@ -350,10 +350,12 @@ display: flex
 
 }
 
+.doblet{
+    background-color: #d80b0b;
+    width: 500-x;
+flex-direction: row;
+display: flex
 
-.foki1{
-   font-size: 50px;
-   text-align: center
 
 
 }
@@ -620,7 +622,7 @@ height: 200px;
 }
 
 
-.caja3{padding-left: 145px;
+.listanav{padding-left: 145px;
     gap:1px;
     font-size: 0.85rem;
     flex-direction: column;
@@ -648,7 +650,7 @@ display: flex
 }
 
 
-.bienvenidos{
+.txtbienvenidos{
 padding-top: 19px;
 font-size: 1.5rem;
 
@@ -701,14 +703,3 @@ width: 0px
 
 
 }
-
-.foki1{
-
-text-align: left;
-font-size: 19px;
-
-}
-
-
-
- }

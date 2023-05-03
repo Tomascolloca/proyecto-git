@@ -5,47 +5,32 @@ margin: 0
 padding 0;
 
 }
+/*index*/
 
-body{
-
-font-family: 'Times New Roman', Times, serif;
-
-}
-
-
-
-
-ul{
-
-list-style: none;
-
-}
-
-
-a{
-color: rgba(0, 0, 139, 0.765);
-    text-decoration: none;
-}
-
-
-.index1{background-color: rgb(0, 145, 255);
+.fondoazul{background-color: rgb(0, 145, 255);
     font-family: 'Playfair Display', serif;
-    ;
-
-
-
-height: 200px;
+    height: 200px;
 }
 
-#blanco{color: white;}
-
-.blanca{
-color: #ffffff;
-
+.navegacion{
+  display: flex;
+flex-direction: column;
+color: black;
+height: 100px;
+width: 300px;
+font-size: 25px
 }
 
-
-
+.listanav{
+    gap: 40px;
+    width: 1050px;
+    height: 100px;
+justify-content: space-around;
+;
+font-size: 25px;
+flex-wrap: nowrap;
+flex-direction: row;
+display: flex}
 
 
 .imagen{justify-content: center;
@@ -57,89 +42,41 @@ color: #ffffff;
     background-image: url(../imagenes/foto1.webp);
     background-position: center;
     background-size: cover;
-    width: 1200px;
+    width: 1200px}
 
 
+    .portadaenfoto{
+        width: 500px;
+         font-size: 2rem;
+        flex-direction: row;
+        display: flex}
+    
+body{font-family: 'Times New Roman', Times, serif;}
 
+ul{list-style: none;}
+
+a{color: rgba(0, 0, 139, 0.765);
+    text-decoration: none;}
+
+.tabla{
+    margin: auto;
+  padding: 20px;
+  width: 600px;
+  height: 75%;
+  border: 1px solid black;
+padding: 0%;
 }
 
 
+.cuadros{height: 100%;
+max-width: 100px}
 
-.portadaenfoto{
-    
-
-    
-    
-   
-    
-    
-    width: 500px;
-    
-    
-    font-size: 2rem;
-    
-    flex-direction: row;
-    display: flex
-    
-    
-
-
-
-}
-
-
-.navegacion{
-  
-
-    display: flex;
-    flex-direction: column;
-color: black;
-height: 100px;
-width: 300px;
-font-size: 25px
-}
-
-
-.caja3{
-    gap: 40px;
-    width: 1050px;
-    height: 100px;
-justify-content: space-around;
-;
-font-size: 25px;
-flex-wrap: nowrap;
-flex-direction: row;
-display: flex
-
-
-
-
-}
-.tabla{height: 300px;
-    width: 800px;
-background-color: 
-
-}
 
 .tabla2{
+height: 300px;
+width: 700px;
+margin: auto}
 
-
-width: 20px
-
-
-
-}
-.elementosdetabla{
-
-;
-
-}
-
-.mapa {
-
-height: 450px;
-width: 450px;
-}
 
 .titulos{
     height: 50px;
@@ -148,55 +85,35 @@ width: 450px;
     width: 1500px;
     justify-content: center;
     flex-direction: row;
-    display: flex
-    
-
-
-
-
-
-}
-
-
-
-
+    display: flex}
 
 td{
 padding-left: 25px
 ;
 }
 
-
-
-
-
-
-
 .caja{
     overflow: hidden;
     font-size: 15px;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;}
 
-
-
-
-
+.mapa{padding-bottom: 5px;
+padding-top: 2px;
+margin: auto;
+width: 55%;
 
 }
+
 
 .caja1{
-height: 90px;
-font-size: 55px;
+height: 80px;
+font-size: 35px;
 align-content: flex-start;
-padding-right: 
+padding-right: }
 
-}
-
-
-.caja2 {
-    
-
+.caja2 {    
+margin-bottom: 55px;
     display: flex;
     flex-direction: row;
 flex-wrap: nowrap;
@@ -205,28 +122,14 @@ justify-content: space-around;
     height: 45px;
     align-content:space-evenly;
 
-font-size: 25px
-
-
-
-    
-
-
-
-}
-
-
-
-
+font-size: 25px}
 
 .texto1{
 
     overflow: hidden;
     font-size: 35px;
     flex-direction: row;
-    flex-wrap: nowrap;
-
-}
+    flex-wrap: nowrap}
 
 
 
@@ -240,12 +143,7 @@ margin-top: 50px;
 align-content: center;
 }
 
-
-
-
-h2{
-
-    overflow: hidden;
+h2{  overflow: hidden;
     font-size: 35px;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -253,23 +151,11 @@ h2{
 }
 
 
-
-
-
-
-
-
 .mikamontoya1{justify-content: center;
     flex-flow: wrap;
     display: flex;
     flex-direction: row
     
-    
-  
-  
- 
-    
-
 
 }
 
@@ -308,18 +194,6 @@ width: 290px;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .index2{
 
     background-color: rgb(0, 145, 255);
@@ -350,13 +224,6 @@ display: flex
 
 }
 
-
-.foki1{
-   font-size: 50px;
-   text-align: center
-
-
-}
 
 
 
@@ -406,25 +273,13 @@ width: 1300px;
     justify-content: center;
     flex-direction: row;
     display: flex
-    
-
-
-
-
 
 }
 
 
-
-
 .chaco4{height: 700px;
 width: 1100px
-;
-    text-align: end
-
-;
-
-
+;text-align: end
 }
 
 
@@ -442,20 +297,18 @@ display: flex
 }
 
 
+/* contacto*/
 
+.pcontacto{
+display: flex;
+text-align: center;
+font-size: 35px;
 
-
-
-
+}
 
 
 
 /*kinesio*/
-
-
-
-
-
 
 
 .flex2 {
@@ -493,7 +346,7 @@ height: 400px;
 iframe{
 flex-wrap: wrap;
 flex-direction: row;
-height: 300px;
+height: 301px;
     width: 200px;
 }
 
@@ -517,14 +370,11 @@ justify-content: center
     display: flex;
 justify-content: row
 
-
-
-
 }
 
 
 .imagen2{
-    background-color: aqua;
+    
     padding: 5px 7px 5px 7px;
     flex-wrap: nowrap;
     flex-direction: row;
@@ -543,13 +393,13 @@ justify-content: row
     height: 90px;
     width: 300px;
 margin-right: 50px;
-    padding: 5px;
+    padding:3px 3px 3px 3px;
     border: solid 2px;
     margin-top: 50px;
 margin-bottom: 50px;
 align-content: flex-start;
     overflow: hidden;
-    font-size: 25px;
+    font-size: 15px;
     flex-direction: row;
     flex-wrap: nowrap;}
 
@@ -564,14 +414,6 @@ translate: no ;
 
         text-decoration: none;
     }
-
-
-
-
-
-
-
-
 
 
 
@@ -620,7 +462,7 @@ height: 200px;
 }
 
 
-.caja3{padding-left: 145px;
+.listanav{padding-left: 145px;
     gap:1px;
     font-size: 0.85rem;
     flex-direction: column;
@@ -648,7 +490,7 @@ display: flex
 }
 
 
-.bienvenidos{
+.txtbienvenidos{
 padding-top: 19px;
 font-size: 1.5rem;
 
@@ -702,13 +544,6 @@ width: 0px
 
 }
 
-.foki1{
-
-text-align: left;
-font-size: 19px;
-
-}
-
 
 /* responsive jugadores*/
 
@@ -723,7 +558,7 @@ font-size: 19px;
 }
 
 
-.caja3{
+.listanav{
     height: 200px;
     padding-left: 145px;
     gap:1px;
@@ -771,3 +606,569 @@ font-size: 1.5rem;
 font-size: 1.9rem;
 
 }
+
+
+@media screen and (max-width: 768px) {
+    /* Estilos para dispositivos móviles */
+    /* Modifica el tamaño de fuente */
+    .titulo-1 {
+      font-size: 24px;
+    }
+    
+    /* Ajusta el tamaño de la imagen */
+    .foki3 {
+      width: 100%;
+    }
+  
+
+
+  .jugadores {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .nombres2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .foki3 {
+    width: 50%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+
+  .navegacion{
+    width: auto;
+    height: 200px;
+
+
+}
+
+
+.listanav{
+height: 200px;
+padding-left: 145px;
+gap:1px;
+font-size: 0.85rem;
+flex-direction: column;
+display: flex
+
+} 
+}
+
+
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .bodycontacto {background-color: rgb(0, 145, 255) ;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos de la barra de navegación */
+  
+  .headercontacto {
+    background-color: #1b7dc3;
+    color: #000000;
+  }
+  
+  .navcontacto {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .ulcontacto {gap: 7px;
+    list-style: none;
+    display: flex;
+    
+  }
+  
+.licontacto {
+    font-size: 20px;
+    margin: 0 1rem;
+  }
+  
+ 
+ 
+  /* Estilos de la sección de contacto */
+  
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .h2contacto {
+    margin-bottom: 1rem;
+  }
+  
+  .formcontacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .labelcontacto {
+    margin-bottom: 0.5rem;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* Estilos de la barra de navegación para pantallas medianas y grandes */
+    
+    .navcontacto {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .licontacto {
+      margin: 1rem 0;
+    }
+  
+    /* Estilos de la sección de contacto para pantallas medianas y grandes */
+    
+    .contacto {
+      padding: 4rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos para el header */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header nav li {
+    margin-left: 20px;
+  }
+  
+  .header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos para la sección de entrenadores */
+  .entrenadores {
+    padding: 40px 0;
+  }
+  
+  .entrenadores h2 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .entrenadores ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+  }
+  
+  .entrenadores li {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .entrenadores img {
+    max-width: 100%;
+  }
+  
+  .entrenadores h3 {
+    margin: 10px 0;
+  }
+  
+  .entrenadores p {
+    margin: 0;
+  }
+  
+  /* Estilos para la sección de servicios */
+  .servicios {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+  }
+  
+  .servicios h2 {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .servicios ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 40px;
+    padding: 0;
+  }
+  
+  .servicios li {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .servicios h3 {
+    margin: 10px 0;
+  }
+  
+  .servicios p {
+    margin: 0;
+  }
+  /*footer*/
+
+/* Estilos para el contenedor del footer */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Estilos para el logo */
+  .logo img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  /* Estilos para la información de contacto */
+  .contact-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para las redes sociales */
+  .social-media h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .social-media ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .social-media li {
+    margin-right: 10px;
+  }
+  
+  .social-media li:last-child {
+    margin-right: 0;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    background-color: #333;
+  }
+  
+  /* Estilos para el texto de derechos reservados */
+  .copy {
+   
+    padding: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #fff;
+  }
+  
+
+  
