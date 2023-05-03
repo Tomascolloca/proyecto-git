@@ -386,12 +386,22 @@ justify-content: row
 }
 
 
+.parrafo{
 
+
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.5;
+    padding: 20px;
+
+}
 
 .caja5{
-    border-width: 15px;
+    border-width: 9px;
     height: 90px;
-    width: 300px;
+    width: 350px;
 margin-right: 50px;
     padding:3px 3px 3px 3px;
     border: solid 2px;
@@ -402,6 +412,8 @@ align-content: flex-start;
     font-size: 15px;
     flex-direction: row;
     flex-wrap: nowrap;}
+
+
 
 
     .titulovete{
@@ -496,7 +508,7 @@ font-size: 1.5rem;
 
 }
 
-.flexcontainer{}
+
 
 
 .caja1{flex-wrap: wrap;
@@ -510,8 +522,6 @@ font-size: 28px;
 
 }
 
-
-.article-river{
 
 
 
@@ -1062,7 +1072,7 @@ display: flex
   
   /* Estilos para la sección de servicios */
   .servicios {
-    background-color: #f2f2f2;
+    
     padding: 40px 0;
   }
   
